@@ -8,7 +8,7 @@ public class primerange {
         System.out.println("Enter the maximum number:");
         int max = sc.nextInt();
 
-        System.out.print("The prime numbers up to "+ max + " are ");
+        System.out.print("The prime numbers up to "+ max + " are: ");
 
         for (int num=2; num<=max; num++){
             boolean isPrime=true;
